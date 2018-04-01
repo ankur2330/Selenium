@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test-Selenium]">
+  <test thread-count="5" name="Tools QA(failed)">
+    <groups>
+      <run>
+        <include name="ALL"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Selenium">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- Selenium -->
+    </classes>
+  </test> <!-- Tools QA(failed) -->
+</suite> <!-- Failed suite [Test-Selenium] -->

@@ -1,0 +1,20 @@
+1521418082604	geckodriver	INFO	Listening on 127.0.0.1:44999
+1521418083306	mozprofile::profile	INFO	Using profile path C:\Users\Ankur\AppData\Local\Temp\rust_mozprofile.CNO4rZK69ld1
+1521418083322	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1521418083368	geckodriver::marionette	INFO	Connecting to Marionette on localhost:53117
+1521418085978	Marionette	INFO	Enabled via --marionette
+1521418107452	Marionette	INFO	Listening on port 53117
+[Child 5740, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5740, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Mar 18, 2018 6:08:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+18:08:28.083 [main] INFO  Selenium - New Driver Instantiated
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109033876-2, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109033876-2, line 69: unreachable code after return statement
+18:08:41.286 [main] INFO  Selenium - Web application launched
+
+===============================================
+Test-Selenium
+Total tests run: 1, Failures: 0, Skips: 0
+===============================================
+

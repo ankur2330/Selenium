@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test-Selenium" duration-ms="78" started-at="2018-03-18T01:50:53Z" finished-at="2018-03-18T01:50:53Z">
+    <groups>
+      <group name="Scooter">
+        <method signature="Selenium.scooter1()[pri:5, instance:Selenium@66d33a]" name="scooter1" class="Selenium"/>
+        <method signature="Selenium.scooter2()[pri:4, instance:Selenium@66d33a]" name="scooter2" class="Selenium"/>
+      </group> <!-- Scooter -->
+      <group name="Car">
+        <method signature="Selenium.car1()[pri:2, instance:Selenium@66d33a]" name="car1" class="Selenium"/>
+        <method signature="Selenium.car2()[pri:1, instance:Selenium@66d33a]" name="car2" class="Selenium"/>
+        <method signature="Selenium.sedan()[pri:3, instance:Selenium@66d33a]" name="sedan" class="Selenium"/>
+      </group> <!-- Car -->
+      <group name="Sedan">
+        <method signature="Selenium.sedan()[pri:3, instance:Selenium@66d33a]" name="sedan" class="Selenium"/>
+      </group> <!-- Sedan -->
+    </groups>
+    <test name="Tools QA" duration-ms="78" started-at="2018-03-18T01:50:53Z" finished-at="2018-03-18T01:50:53Z">
+      <class name="Selenium">
+        <test-method status="PASS" signature="car2()[pri:1, instance:Selenium@66d33a]" name="car2" duration-ms="15" started-at="2018-03-18T01:50:53Z" finished-at="2018-03-18T01:50:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- car2 -->
+        <test-method status="PASS" signature="sedan()[pri:3, instance:Selenium@66d33a]" name="sedan" duration-ms="0" started-at="2018-03-18T01:50:53Z" finished-at="2018-03-18T01:50:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sedan -->
+        <test-method status="PASS" signature="car1()[pri:2, instance:Selenium@66d33a]" name="car1" duration-ms="0" started-at="2018-03-18T01:50:53Z" finished-at="2018-03-18T01:50:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- car1 -->
+        <test-method status="PASS" signature="scooter2()[pri:4, instance:Selenium@66d33a]" name="scooter2" duration-ms="0" started-at="2018-03-18T01:50:53Z" finished-at="2018-03-18T01:50:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scooter2 -->
+        <test-method status="PASS" signature="scooter1()[pri:5, instance:Selenium@66d33a]" name="scooter1" duration-ms="0" started-at="2018-03-18T01:50:53Z" finished-at="2018-03-18T01:50:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scooter1 -->
+      </class> <!-- Selenium -->
+    </test> <!-- Tools QA -->
+  </suite> <!-- Test-Selenium -->
+</testng-results>

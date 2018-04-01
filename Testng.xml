@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Test-Selenium" >
+
+    <test name="Tools QA">
+        <groups>
+            <run>
+              <include name = "ALL"/>
+            </run>
+
+
+        </groups>
+        <classes>
+            <class name="POM_TC"/>
+        </classes>
+
+    </test>
+
+</suite>
